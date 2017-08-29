@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.26430.6
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Project", "Project", "{6F81D5A7-DD8E-40CF-A696-7E14B6309CD0}"
 EndProject
@@ -22,6 +22,12 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Configuration", "Configurat
 		src\Project\Group\code\App_Config\Include\Project\z.Sitecore.Demo.Group.DevSettings.config = src\Project\Group\code\App_Config\Include\Project\z.Sitecore.Demo.Group.DevSettings.config
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Feature", "Feature", "{33AD048E-1EFB-47B6-8E85-EECB2989298B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Events", "Events", "{FA6970A5-CADE-4425-AB2E-4059C15AF155}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sitecore.Feature.Events", "src\Feature\Events\code\Sitecore.Feature.Events.csproj", "{6F422905-DC92-4C86-9405-CAB87209CE92}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -32,6 +38,10 @@ Global
 		{4A74623C-08D4-4984-A7A5-E482AF0B0630}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4A74623C-08D4-4984-A7A5-E482AF0B0630}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4A74623C-08D4-4984-A7A5-E482AF0B0630}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6F422905-DC92-4C86-9405-CAB87209CE92}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F422905-DC92-4C86-9405-CAB87209CE92}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F422905-DC92-4C86-9405-CAB87209CE92}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F422905-DC92-4C86-9405-CAB87209CE92}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -39,5 +49,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{9D180712-0180-4814-95C8-C9A0732EC28D} = {6F81D5A7-DD8E-40CF-A696-7E14B6309CD0}
 		{4A74623C-08D4-4984-A7A5-E482AF0B0630} = {9D180712-0180-4814-95C8-C9A0732EC28D}
+		{FA6970A5-CADE-4425-AB2E-4059C15AF155} = {33AD048E-1EFB-47B6-8E85-EECB2989298B}
+		{6F422905-DC92-4C86-9405-CAB87209CE92} = {FA6970A5-CADE-4425-AB2E-4059C15AF155}
 	EndGlobalSection
 EndGlobal
